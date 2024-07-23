@@ -22,12 +22,12 @@ const Register = () => {
   };
 
   return (
-    <Container className="mt-4">
-      <h2>Register</h2>
+    <Container className="mt-4 register-con">
+      <h2 className='landing-head'>Register</h2>
       {error && <Alert variant="danger">{error}</Alert>}
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit} className='register-form-con'>
         <Form.Group controlId="formUsername" className="mb-3">
-          <Form.Label>Username</Form.Label>
+          <Form.Label className='labels'>Username</Form.Label>
           <Form.Control
             type="text"
             placeholder="Enter your username"
@@ -38,7 +38,7 @@ const Register = () => {
         </Form.Group>
 
         <Form.Group controlId="formEmail" className="mb-3">
-          <Form.Label>Email</Form.Label>
+          <Form.Label className='labels'>Email</Form.Label>
           <Form.Control
             type="email"
             placeholder="Enter your email"
@@ -49,7 +49,7 @@ const Register = () => {
         </Form.Group>
 
         <Form.Group controlId="formPassword" className="mb-3">
-          <Form.Label>Password</Form.Label>
+          <Form.Label className='labels'>Password</Form.Label>
           <Form.Control
             type="password"
             placeholder="Enter your password"

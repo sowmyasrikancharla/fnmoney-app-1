@@ -1,0 +1,153 @@
+.landing-bg-con{
+    /* background-image: url('https://img.freepik.com/premium-photo/man-suit-with-hockey-stick-front-neon-background_853645-8174.jpg'); */
+    background-image: url("https://img.freepik.com/free-photo/door-leading-magical-world_23-2151038217.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.landing-head{
+    color: aliceblue;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.landing-desc{
+    color: aliceblue;
+    font-size: 20px;
+    font-family:Lobster;
+    text-align: center;
+    font-weight: 100;
+}
+.assessments-button{
+    background-color: #ffffff11;
+    color: red;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color:red;
+    align-self: center;
+}
+.login-con{
+    background-image: url("https://img.freepik.com/free-photo/blockchain-technology-cartoon-illustration_23-2151572142.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding:20px;
+}
+.login-register-con{
+    padding: 10px;
+
+}
+.button1{
+    background-color: #ffffff11;
+    color:green;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color:green;
+    align-self: center;
+    margin: 5px;
+}
+.button2{
+    background-color: #ffffff11;
+    color:blue;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color:blue;
+    align-self: center;
+    margin: 5px;
+}
+.login-form-con{
+    background-image: url("https://img.freepik.com/free-photo/cute-possum-wearing-clothes_23-2150953279.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.labels{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+
+.register-con{
+    background-image: url("https://img.freepik.com/free-photo/view-cartoon-animated-3d-penguin_23-2150882064.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+.register-form-con{
+    width: 30%;
+}
+    .bg-con{
+        background-image: url('https://img.freepik.com/free-photo/futuristic-football-game-player_23-2151152979.jpg');
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .assessments-con{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+.assessment{
+    background-color: #ffffff33;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 20%
+}
+.assess-head{
+    color: blue;
+    font-size: 25px;
+}
+.assess-desc{
+    color: white;
+    font-size: 16px;
+}
+.assess-button{
+    background-color: transparent;
+    width:30%;
+    padding: 8px;
+    border-radius:10px;
+    color:red;
+    font-size: 12px;
+    border-color: red; 
+
+}
+
+.about-con{
+    background-image: url("https://img.freepik.com/premium-photo/office-black-leather-workspace-with-laptop-office-supplies-copy-space_67155-1777.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    list-style-type: none;
+}
+
+.contact-con{
+    background-image: url("https://img.freepik.com/premium-photo/dark-blue-vintage-dial-telephone-handset-with-dark-blue-background_180224-181.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}

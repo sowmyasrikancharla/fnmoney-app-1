@@ -22,13 +22,13 @@ const Login = ({ setIsAuthenticated }) => {
   };
 
   return (
-    <Container className="d-flex justify-content-center align-items-center p-5">
+    <Container className="d-flex justify-content-end align-items-center p-5 login-form-con">
       <Row>
         <Col>
-          <h2 className="text-center mb-4">Login</h2>
+          <h2 className="text-center mb-4 landing-head">Login</h2>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formUsername">
-              <Form.Label>Username</Form.Label>
+              <Form.Label className='labels'>Username</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Enter username"
@@ -39,7 +39,7 @@ const Login = ({ setIsAuthenticated }) => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label className='labels'>Password</Form.Label>
               <Form.Control
                 type="password"
                 placeholder="Enter password"
